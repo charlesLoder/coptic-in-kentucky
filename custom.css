@@ -1,0 +1,89 @@
+body {
+    background-color: #236868;
+}
+
+.card {
+    box-shadow: 5px 5px 5px;
+    width: 17rem;
+}
+
+.card-text {
+    font-size: .75em;
+}
+
+.code {
+    font-size: .75em; 
+}
+
+/* This ensures footer is pushed to bottom */
+.wrapper {
+    flex: 1;
+}
+
+/* Cards */
+.btn {
+    border: inherit;
+    background-color: #136b13;
+}
+
+.btn:focus {
+    border-color: #0C450C;
+    box-shadow: 0 0 0 .2rem rgba(19, 107, 19,.5);
+}
+
+.btn-primary:hover {
+    border-color: #0C450C;
+    background-color: #136b13;
+    box-shadow: 0 0 0 .2rem rgba(19, 107, 19,.5);
+}
+
+/* Footer */
+.footer,
+.footer-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    background-color: #313D76;
+    justify-content: flex-end;
+}
+
+.footer-btn-wrapper {
+    margin: .75em;
+}
+
+.footer-btn {
+    margin-left: .5em;
+}
+
+/* Modals */
+.modal-dialog {
+    overflow-y: initial !important;
+}
+
+.modal-header,
+.modal-footer {
+    background-color:rgba(0, 0, 0, .03);
+}
+
+.modal-body{
+    height: calc(100vh * .66);
+    overflow-y: auto;
+}
+
+.modal-body > p {
+    font-size: .9em;
+}
+
+.modal-body > ul {
+    font-size: .9em;
+}
+
+.modal-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .75em;
+    max-width: 400px;
+}
